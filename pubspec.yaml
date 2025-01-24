@@ -1,0 +1,61 @@
+name: agri_app
+description: A sample agriculture app.
+version: 1.0.0
+publish_to: 'none' # Remove this line if you plan to publish
+
+environment:
+  sdk: ">=2.18.0 <3.0.0" # Adjust according to your Flutter version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^4.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^4.0.0
+  test: ^1.24.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/grassland.jpg 
+    - assets/news.jpg
+    - assets/product.jpeg
+    - assets/seeds_icon.jpg
+    - assets/fertilizer_icon.jpg
+    - assets/tools_icon.jpg
+    - assets/irrigation_icon.jpg
+    - assets/machinery_icon.jpg
+    - assets/pesticides_icon.jpg
+    - assets/crop.jpg
+    - assets/consulting.jpg
+    - assets/soil.jpg
+    - assets/harvest.jpg
+    - assets/regulatory.jpg
+    - assets/analysis.jpg
+    - assets/account.jpg
+    - assets/financial.jpg
+    - assets/weather.jpg
+    - assets/potato.jpg
+    - assets/tomato.jpg
+    - assets/rice.jpg
+    - assets/corn.jpg
+    - assets/wheat.jpg
+    - assets/soil.jpg
+    - assets/clay_icon.jpg
+    - assets/sandy_icon.jpg
+    - assets/loamy_icon.jpg
+    - assets/peaty_icon.jpg
+    - assets/saline_icon.jpg
+    - assets/shovel.jpg
+    - assets/hoe.jpg
+    - assets/rake.jpg
+    - assets/pruning_shear.jpg
+    - assets/watering_can.jpg
+
+
+
+    
